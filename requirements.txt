@@ -1,0 +1,6 @@
+requests>=2.28.0
+urllib3>=1.26.0
+mutagen>=1.47.0
+streamlit>=1.33.0
+pandas>=2.0.0
+# The rest of your requirements are in original_project/

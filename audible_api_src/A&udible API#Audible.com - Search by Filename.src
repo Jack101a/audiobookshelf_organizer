@@ -1,0 +1,12 @@
+[Name]=Audible.com - Search by Filename
+[BasedOn]=Audible.com - Search by Author + Title
+[SearchBy]=$replace(%_filename_ext%,&, %26)
+
+[ParserScriptIndex]=...
+# This file is included for reference.
+# It demonstrates a fallback search strategy (searching by filename)
+# which is implemented in 'main.py' in the 'get_metadata_for_file'
+# function.
+#
+# This file is NOT executed by the Python script.
+...

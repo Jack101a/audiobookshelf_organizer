@@ -1,0 +1,14 @@
+[Name]=Audible.com - Search by Author + Title
+[BasedOn]=Audible.com
+[IndexUrl]=https://api.audible.com/1.0/catalog/products?num_results=50&products_sort_by=Relevance&image_sizes=100&keywords=%s
+[WordSeparator]=+
+[Encoding]=utf-8
+
+[ParserScriptIndex]=...
+# This file is included for reference.
+# The Python script 'audible_client.py' implements the HTTP call
+# to the [IndexUrl] specified above (for fallback searches)
+# and parses the JSON response.
+#
+# This file is NOT executed by the Python script.
+...

@@ -1,0 +1,12 @@
+# Sensitive credentials
+audible_auth.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# VSCode settings
+.vscode/

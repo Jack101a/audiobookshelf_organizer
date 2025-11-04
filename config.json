@@ -1,0 +1,29 @@
+{
+  "audible": {
+    "auth_file_path": "./audible_auth.json",
+    "locale": "us",
+    "api_base": "https://api.audible.com",
+    "web_base": "https://www.audible.com"
+  },
+  "audiobookshelf": {
+    "enabled": true,
+    "api_url": "http://192.168.0.196:13378/api",
+    "api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlJZCI6IjhkNWM1NTUxLTQ0NTItNGYyNS04MGMwLWE4MWNlZjQ4MjQ0OSIsIm5hbWUiOiJGb2xkZXIgT3JnYW5zZXIiLCJ0eXBlIjoiYXBpIiwiaWF0IjoxNzYxOTkxODMzfQ.vH12e649KDpMBwpSa2KEnUjEplDC6ZrABwEWyWGyXrA",
+    "library_id": "YOUR_LIBRARY_ID_TO_RESCAN"
+  },
+  "organizer": {
+    "default_output_dir": "./organized_library",
+    "move_files": false,
+    "dry_run": false,
+    "verbose": false,
+    "create_opf": true,
+    "min_file_size_mb": 80
+  },
+  "formatting": {
+    "narrator_in_artist_field": true,
+    "single_album_artist": false,
+    "single_genre": false,
+    "use_full_release_date_as_year": false,
+    "multi_value_delimiter": " & "
+  }
+}

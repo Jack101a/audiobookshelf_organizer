@@ -1,0 +1,15 @@
+[Name]=Audible.com - Search by ASIN
+[BasedOn]=Audible.com
+[AlbumUrl]=https://api.audible.com/1.0/catalog/products/%s?response_groups=contributors,media,product_desc,product_details,product_plans,rating,reviews,sample,series&image_sizes=1000,700,500
+[SearchUrl]=https://api.audible.com/1.0/catalog/products?num_results=50&products_sort_by=Relevance&keywords=%s
+[WordSeparator]=+
+[Encoding]=utf-8
+
+[ParserScriptAlbum]=...
+# This file is included for reference.
+# The Python script 'audible_client.py' implements the HTTP call
+# to the [AlbumUrl] specified above and parses the JSON response
+# according to the fields defined in 'A&udible API#README.md'.
+#
+# This file is NOT executed by the Python script.
+...
